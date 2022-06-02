@@ -5,9 +5,9 @@
 **Your guide as you begin to scratch the surface of what Collimator can do!**
 
 ## Projects by Block Variable type 
-- [Discrete Examples](https://github.com/collimator-ai)
-- [Continous Examples](https://github.com/collimator-ai)
-- [Hybrid Examples](https://github.com/collimator-ai)
+- [Discrete Examples](https://github.com/collimator-ai/examples/tree/main/Discrete%20Examples)
+- [Continous Examples]([https://github.com/collimator-ai](https://github.com/collimator-ai/examples/tree/main/Continuous%20Examples))
+- [Hybrid Examples]([https://github.com/collimator-ai](https://github.com/collimator-ai/examples/tree/main/Hybrid%20Examples))
 
 
 ## All projects
