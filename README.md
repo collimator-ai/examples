@@ -1,2 +1,2 @@
 # examples
-Sample models and jupyter notebook
+Sample models, jupyter notebooks, and Python scripts for the modelling and simulation of dynamic systems
