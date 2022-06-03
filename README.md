@@ -1,14 +1,8 @@
 <img align="right" src="https://user-images.githubusercontent.com/44644848/171723195-8d12ba78-cb32-429e-96c4-b9e99ca92eec.svg" width="120">
 
-# Collimator Templates
+# Collimator Tutorials
 
 **Your guide as you begin to scratch the surface of what Collimator can do!**
-
-## Projects by Block Variable type 
-- [Discrete Examples](https://github.com/collimator-ai/examples/tree/main/Discrete%20Examples)
-- [Continous Examples](https://github.com/collimator-ai/examples/tree/main/Continuous%20Examples)
-- [Hybrid Examples](https://github.com/collimator-ai/examples/tree/main/Hybrid%20Examples)
-
 
 ## All projects
 *Updated: June 6, 2022*
