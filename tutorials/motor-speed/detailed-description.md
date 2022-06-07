@@ -164,5 +164,24 @@ $$y=\begin{bmatrix}0 & 1 & 0\end{bmatrix}
 \dotΦ\\
 i\end{bmatrix}$$
 
+The state space model is implemented in Figure 8 and the state space block is configured in Figure 9. The visualization of the step response of the state space model is shown in Figure 10.
+
+###### Figure 8 DC motor state space model
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44644848/172421382-086f1e1f-0a4c-4594-88e4-fd75039a7827.png"  width="500"/>
+</p>
+
+###### Figure 9 Configuration of the state space block
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44644848/172421397-9eca2bef-471e-47ee-ba21-09d7a489e9a4.png"  width="300"/>
+</p>
+
+###### Figure 10 Step response for DC motor state space model
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44644848/172421444-2bef1beb-e0b6-4355-bca0-a90424a55397.png"  width="100%"/>
+</p>
 
 
