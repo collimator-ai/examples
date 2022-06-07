@@ -10,10 +10,10 @@ In this example using the Ziegler-Nichols method for empirically tuning the PID 
 
 ## Project Description
 Click the link below for a detialed look at the creation and tuning of the models, or the link below that for the Python Notebook file to view the python code that can be run on Collimator.
-<ol>
+<ul>
 <li><h3><a href="https://www.collimator.ai/tutorials/dc-motor-position-controller-design" target="_blank" >Project Walkthrough</a></h3></li>
 <li><h3><a href="https://github.com/collimator-ai/examples/blob/main/motor-position/motor-position-notebook.py">Python Notebook</a></h3></li>
-</ol>
+</ul>
 
 ## Results
 
