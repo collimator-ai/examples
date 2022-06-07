@@ -9,11 +9,15 @@
 In this example using the Ziegler-Nichols method for empirically tuning the PID controller, we will show how to design and simulate a PID controller for controlling the position of a DC motor shaftin Collimator
 
 ## Project Description
-
+Click the link below for a detialed look at the creation and tuning of the models, or the link below that for the Python Notebook file to view the python code that can be run on Collimator.
+<ol>
+<li><h3><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/detailed-description.md">Detailed Project Walkthrough</a></h3></li>
+<li><h3><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/motor-position-notebook.py">Python Notebook</a></h3></li>
+</ol>
 
 ## Results
 
-From the step responses, we can see that “PID 2” yields the best step response among the available controllers. Therefore, we will have another look at the “PID 2” controller to investigate the step response the characteristics:
+“PID 2” yields the best step response among the available controllers. Therefore, we will have another look at the “PID 2” controller to investigate the step response the characteristics:
 
 ```python
 plt.rcParams["figure.figsize"] = (12,8)
@@ -44,4 +48,6 @@ Finally, we investigate the tuned PID controller parameters in the model editor 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/44644848/172380960-dd6ad4af-701d-47df-9911-25bb6569f691.png"  width="100%"/>
 </p>
+
+<h6><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/motor-position-notebook.py">read more</a></h6></li>
 
