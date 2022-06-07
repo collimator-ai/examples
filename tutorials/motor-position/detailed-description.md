@@ -14,6 +14,17 @@ The motor is conceptually modeled as in Figure 1 with the parameters given in Ta
 
 ###### Table 1 DC motor model parameters:
 
+$$\begin{array} 
+{|l|l|}
+\hline Symbol & Description & Value & Unit \\ 
+\hline R & \text{Shunt Resistance} & 4 & \Omega \\ 
+\hline L & \text{Coil inductance} & .25 & H \\ 
+\hline K & \text{Motor Electromotive/torque constant} & .05 & N.m/A \\ 
+\hline j & \text{Rotor intertia} & .02 & Kg.m2 \\ 
+\hline b & \text{Friction constant}  & 0.1 & N.m.s \\ 
+\hline  
+\end{array}$$
+
 
 The transfer function of the DC motor position to the input voltage is described in the following Equation:
 
@@ -119,9 +130,32 @@ The step response for the DC motor position with the P controller is shown in Fi
 
 The initially tuned P controller yields a very slow step response:
 
+
+$$\begin{array}
+{|l|l|}
+\hline \text{Overshoot} & 0.00000 \\ 
+\hline \text{Raise Time (90) } & 18.080000s \\ 
+\hline \text{Settling time (2)} & 30.080000s \\ 
+\hline  
+\end{array}$$
+
+
 Therefore, we will consider the Ziegler-Nichols table for empirical tuning of the PID controller. The Ziegler-Nichols tuning rule is defined in Table 2
 
 ###### Table 2 Ziegler-Nichols tuning rules:
+
+
+$$\begin{array} 
+{|l|l|}
+\hline \text{Controller Type} & Kp & Ki & Kd \\ 
+\hline P & 0.5K_u & 0 & 0 \\ 
+\hline PI & 0.45K_u & 0.54\frac{K_u}{T_u} & 0\frac{K_u}{T_u} \\ 
+\hline PD & 0.8K_u & 0 & 0.1K_uT_u \\ 
+\hline \text{PID} 1 & 0.6K_u & 1.2\frac{K_u}{T_u} & 0.075K_uT_u \\ 
+\hline \text{PID} 2 & 0.33K_u & 0.66\frac{K_u}{T_u} & 0.11K_uT_u \\ 
+\hline \text{PID} 3 & 0.20K_u & 0.40\frac{K_u}{T_u} & 0.066K_uT_u \\ 
+\hline  
+\end{array}$$
 
 
 The tuning rules depend on determining the ultimate gain $K_u$ and the oscillation period $T_u$. To determine these values, we perform a sweep for the P gain until we get a pure oscillatory response:
