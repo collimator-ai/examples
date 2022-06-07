@@ -20,7 +20,7 @@ The motor is conceptually modeled as in Figure 1 with the parameters given in Ta
 ###### Figure 1 DC motor model block diagram
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/171924892-4ccf72f5-9d73-4756-aff4-affc24b5c835.jpg"  width="400" alt="Figure 1 DC motor model block diagram"/>
+<img src="https://user-images.githubusercontent.com/44644848/171924892-4ccf72f5-9d73-4756-aff4-affc24b5c835.jpg"  width="300" alt="Figure 1 DC motor model block diagram"/>
 </p>
 
 ###### Table 1 DC motor model parameters:
@@ -35,7 +35,7 @@ We can build the simulation diagram for the DC motor position with the PID contr
 ###### Figure 2 DC motor position transfer function model with PID
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/171925900-40d0ecf1-a6f2-4fa5-901b-210e1175ac8f.png"  width="400"/>
+<img src="https://user-images.githubusercontent.com/44644848/171925900-40d0ecf1-a6f2-4fa5-901b-210e1175ac8f.png"  width="100%"/>
 </p>
 
 $$Numerator= [0.05]$$
@@ -47,7 +47,7 @@ Then, we add the controller parameters to the model parameters configuration tab
 ###### Figure 3 Model parameters for PID controller
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/172247156-fb173fb0-ba27-4353-8221-d7588fb91821.png"  width="400"/>
+<img src="https://user-images.githubusercontent.com/44644848/172247156-fb173fb0-ba27-4353-8221-d7588fb91821.png"  width="300"/>
 </p>
 
 ### PID Controller Tuning within Collimator Notebook
@@ -102,7 +102,7 @@ sim.show_logs()
 2022-05-02 15:51:42 INF simulation completed successfully exit code=0 total_time=0.161123 simulation time=0.037949
 ```
 
-To tune the PID controller, we begin with a simple P controller with \(K_p=1\)
+To tune the PID controller, we begin with a simple P controller with $K_p=1$
 
 ```python
 kp = 1
@@ -122,10 +122,10 @@ step_info(my_results['time'].to_numpy(),my_results['DCMotorPosition'].to_numpy()
 
 The step response for the DC motor position with the P controller is shown in Figure 4.
 
-###### Figure 4 Step response for P controller with \(K_p = 1\)
+###### Figure 4 Step response for P controller with $K_p = 1$
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/172248012-9aaf5eb8-0a14-490b-990c-518ae26c7ff1.png"  width="400"/>
+<img src="https://user-images.githubusercontent.com/44644848/172248012-9aaf5eb8-0a14-490b-990c-518ae26c7ff1.png"  width="50%"/>
 </p>
 
 The initially tuned P controller yields a very slow step response:
@@ -135,7 +135,7 @@ Therefore, we will consider the Ziegler-Nichols table for empirical tuning of th
 ###### Table 2 Ziegler-Nichols tuning rules:
 
 
-The tuning rules depend on determining the ultimate gain \(K_u\) and the oscillation period \(T_u.\) To determine these values, we perform a sweep for the P gain until we get a pure oscillatory response:
+The tuning rules depend on determining the ultimate gain $K_u$ and the oscillation period $T_u$. To determine these values, we perform a sweep for the P gain until we get a pure oscillatory response:
 
 ```python
 plt.rcParams["figure.figsize"] = (12,8)
@@ -157,7 +157,7 @@ From Figure 5, we can see that the ultimate gain is and the ultimate period is a
 ###### Figure 5 Sweep response for some P gains
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/172380081-c4d5feeb-9ae4-4cb8-9fcf-22361be4cb0b.png"  width="400"/>
+<img src="https://user-images.githubusercontent.com/44644848/172380081-c4d5feeb-9ae4-4cb8-9fcf-22361be4cb0b.png"  width="50%"/>
 </p>
 
 Consequently, we apply the extracted gain to find the PID controller gains as defined in the Ziegler-Nichols tuning rules:
@@ -186,7 +186,7 @@ for i inrange(0, len(labels)):
 ###### Figure 6 Step response for Ziegler-Nichols PID controllers
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/172380097-aa21ff29-e91a-47f1-a4d6-7b597a266e2c.png"  width="400"/>
+<img src="https://user-images.githubusercontent.com/44644848/172380097-aa21ff29-e91a-47f1-a4d6-7b597a266e2c.png"  width="50%"/>
 </p>
 
 From the step responses, we can see that “PID 2” yields the best step response among the available controllers. Therefore, we will have another look at the “PID 2” controller to investigate the step response the characteristics:
@@ -210,7 +210,7 @@ my_model.parameters
 ###### Figure 7 Step response of controller “PID 2”
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/172380747-f1a8a587-2043-44e4-8365-5f1c596835a0.png"  width="400"/>
+<img src="https://user-images.githubusercontent.com/44644848/172380747-f1a8a587-2043-44e4-8365-5f1c596835a0.png"  width="50%"/>
 </p>
 
 Finally, we investigate the tuned PID controller parameters in the model editor to further study the disturbance rejection of the controller. The characteristics of controller disturbance rejection are illustrated in Figure 8.
@@ -218,8 +218,41 @@ Finally, we investigate the tuned PID controller parameters in the model editor 
 ###### Figure 8 Step response for disturbance rejection of PID 2 controller
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/172380960-dd6ad4af-701d-47df-9911-25bb6569f691.png"  width="400"/>
+<img src="https://user-images.githubusercontent.com/44644848/172380960-dd6ad4af-701d-47df-9911-25bb6569f691.png"  width="100%"/>
 </p>
 
+
 ## Results
+
+From the step responses, we can see that “PID 2” yields the best step response among the available controllers. Therefore, we will have another look at the “PID 2” controller to investigate the step response the characteristics:
+
+```python
+plt.rcParams["figure.figsize"] = (12,8)
+plt.grid()
+my_model.set_parameters({"kp":kp[i]})
+my_model.set_parameters({"ki":ki[i]})
+my_model.set_parameters({"kd":kd[i]})
+sim = C.run_simulation (my_model)
+my_results = sim.results.to_pandas()
+plt.plot(my_results['time'],my_results['DCMotorPosition'],label=labels[i])
+plt.xlabel("Time")
+plt.ylabel("Motor Position")
+plt.legend() 
+step_info(my_results['time'].to_numpy(),my_results['DCMotor Position'].to_numpy())
+my_model.parameters
+```
+
+###### Figure 7 Step response of controller “PID 2”
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44644848/172380747-f1a8a587-2043-44e4-8365-5f1c596835a0.png"  width="50%"/>
+</p>
+
+Finally, we investigate the tuned PID controller parameters in the model editor to further study the disturbance rejection of the controller. The characteristics of controller disturbance rejection are illustrated in Figure 8.
+
+###### Figure 8 Step response for disturbance rejection of PID 2 controller
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44644848/172380960-dd6ad4af-701d-47df-9911-25bb6569f691.png"  width="100%"/>
+</p>
 
