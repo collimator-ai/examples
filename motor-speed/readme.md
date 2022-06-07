@@ -12,11 +12,11 @@ This example will show how to model a DC motor's speed using different approache
 The three approaches we will use in order to modela a DC motor's speed are simulation diagrams from a differential equation, a transfer function, and a state variable model. Then, we will design and simulate a PID controller for the DC motor speed.
 
 Click the link below for a detialed walkthrough of the creation and tuning of the models using Collimator.
-<ol>
+<ul>
   <li>
     <h3><a href="https://www.collimator.ai/tutorials/dc-motor-speed-controller-design" target="_blank" >Project Walkthrough</a</h3>
   </li>
-</ol>
+</ul>
 
 ## Results
 
