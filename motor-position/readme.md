@@ -11,7 +11,7 @@ In this example using the Ziegler-Nichols method for empirically tuning the PID 
 ## Project Description
 Click the link below for a detialed look at the creation and tuning of the models, or the link below that for the Python Notebook file to view the python code that can be run on Collimator.
 <ol>
-<li><h3><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/detailed-description.md">Detailed Project Walkthrough</a></h3></li>
+<li><h3><a href="https://www.collimator.ai/tutorials/dc-motor-position-controller-design">Detailed Project Walkthrough</a></h3></li>
 <li><h3><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/motor-position-notebook.py">Python Notebook</a></h3></li>
 </ol>
 
@@ -49,5 +49,5 @@ Finally, we investigate the tuned PID controller parameters in the model editor 
 <img src="https://user-images.githubusercontent.com/44644848/172380960-dd6ad4af-701d-47df-9911-25bb6569f691.png"  width="100%"/>
 </p>
 
-<h6><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/detailed-description.md">read more</a></h6></li>
+<h6><a href="https://www.collimator.ai/tutorials/dc-motor-position-controller-design">read more</a></h6></li>
 
