@@ -16,7 +16,7 @@ Click the link below for a detialed walkthrough of the creation and tuning of th
 
 <ul>
   <li><h3><a href="https://www.collimator.ai/tutorials/optimal-cruise-control" target="_blank">Project Walkthrough</a</h3> </li>
-  <h3><a href="https://www.collimator.ai/tutorials/dc-motor-speed-controller-design">Python Notebook</a</h3></li>
+  <h3><a href="https://github.com/collimator-ai/examples/blob/main/cruise-control/cruise-control-notebook.py">Python Notebook</a</h3></li>
 </ul>
 
 ## Results
