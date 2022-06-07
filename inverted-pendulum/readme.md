@@ -5,7 +5,7 @@
 </table>
 
 ## Objective
-design a full-state feedback controller for an inverted pendulum system. 
+Design a full-state feedback controller for an inverted pendulum system. 
 
 
 ## Project Description
