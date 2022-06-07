@@ -18,7 +18,7 @@
 <tbody>
 <td><img src="https://user-images.githubusercontent.com/44644848/171918909-ca34ceca-8d40-4293-ab00-270818c6a868.jpg"  width=400 /></td>
 <td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/car-suspension/car-suspension.md">Car Suspension Design</a></h2></p>
-<p>Design and optimize a car suspension system using Collimator</p>
+<p>Design and optimize a car's suspension system using Collimator</p>
 <p><strong>Difficulty</strong>: Easy.</p></td>
 </tbody>
 
