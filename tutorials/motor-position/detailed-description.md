@@ -83,10 +83,10 @@ C.list_models()
 
 ```python
 my_model = C. load_model('DC Motor Position TF')
-my_model
 ```
 
 ```text
+my_model
 [<Model name='DC Motor Position TF>]
 ```
 
