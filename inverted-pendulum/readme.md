@@ -5,12 +5,11 @@
 </table>
 
 ## Objective
-Optimally tune a PI controller for a car cruise controller using Collimator.
+design a full-state feedback controller for an inverted pendulum system. 
 
 
 ## Project Description
-use Collimator notebook to design a full-state feedback controller for an inverted pendulum system. 
-
+In this tutorial, we will show how to use Collimator notebook to design a full-state feedback controller for an inverted pendulum system. 
 <ul>  
 <li><h3><a href="https://www.collimator.ai/tutorials/inverted-pendulum-system" target="_blank" >Project Walkthrough</a></h3></li>
 <li><h3><a href="https://github.com/collimator-ai/examples/blob/main/interted-pendulum/inverted-pendulum-notebook.py">Python Notebook</a></h3></li>
@@ -45,7 +44,7 @@ ax2.grid(which='both')
 ```
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/44644848/172479802-f4b94c16-965b-47f1-a3cd-9d4e692807eb.png" width="100%"/>
+<img src="https://user-images.githubusercontent.com/44644848/172479802-f4b94c16-965b-47f1-a3cd-9d4e692807eb.png" width="400"/>
 </p>
 
 The final controller now meets the design requirements for our inverted pendulum system    
