@@ -66,9 +66,9 @@ We will also define a function that returns the step response information as ove
 
 ```python
 def step_info(t,response):
-print("Overshoot: %f%s"%((response.max()/response[-1)-1)*100,'%'))
-print("Rise time (90%%): %fs"%(t[next(i for i in range(0, len(response)-1) if response[i]>response [-1]*.90)]-t[0])) 
-print("Settling time (2%%): %fs"%(t[next(len (response) -i for i in range (2,len (response)-1) if abs (response[-i]/response[-1])&lt;0.98)]-t[0]))
+    print("Overshoot: %f%s"%((response.max()/response[-1)-1)*100,'%'))
+    print("Rise time (90%%): %fs"%(t[next(i for i in range(0, len(response)-1) if response[i]>response [-1]*.90)]-t[0])) 
+    print("Settling time (2%%): %fs"%(t[next(len (response) -i for i in range (2,len (response)-1) if abs (response[-i]/response[-1])&lt;0.98)]-t[0]))
 ```
 
 The first step is to list the available models within our workspace and define a variable that links the simulation diagram within the notebook.
