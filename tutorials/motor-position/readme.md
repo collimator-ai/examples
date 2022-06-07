@@ -49,5 +49,5 @@ Finally, we investigate the tuned PID controller parameters in the model editor 
 <img src="https://user-images.githubusercontent.com/44644848/172380960-dd6ad4af-701d-47df-9911-25bb6569f691.png"  width="100%"/>
 </p>
 
-<h6><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/detailed-description.py">read more</a></h6></li>
+<h6><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-position/detailed-description.md">read more</a></h6></li>
 
