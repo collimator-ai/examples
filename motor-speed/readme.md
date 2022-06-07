@@ -1,7 +1,7 @@
 
 <table>
 <td><img src="https://user-images.githubusercontent.com/44644848/171729465-95d15fc9-1337-4082-8cf9-6ce7e46fd641.jpg"  width=500/></td>
-<td><p><h1>DC Motor Position Controller Design</h1></p>
+<td><p><h1>DC Motor Speed Controller Design</h1></p>
 <p>Tuning a PID controller for a DC Motor Speed System.</p>
 </table>
 
