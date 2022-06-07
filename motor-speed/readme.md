@@ -14,7 +14,7 @@ The three approaches we will use in order to modela a DC motor's speed are simul
 Click the link below for a detialed walkthrough of the creation and tuning of the models using Collimator.
 <ol>
   <li>
-    <h3><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-speed/detailed-description.md">Detailed Project Walkthrough</a</h3>
+    <h3><a href="https://www.collimator.ai/tutorials/dc-motor-speed-controller-design">Detailed Project Walkthrough</a</h3>
   </li>
 </ol>
 
@@ -35,5 +35,5 @@ The final step response is plotted in Figure 15
 </p>
 
   
-<h6><a href="https://github.com/collimator-ai/examples/blob/main/tutorials/motor-speed/detailed-description.md">read more</a></h6></li>
+<h6><a href="https://www.collimator.ai/tutorials/dc-motor-speed-controller-design">read more</a></h6></li>
 
