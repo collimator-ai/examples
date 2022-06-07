@@ -35,5 +35,5 @@ The final step response is plotted in Figure 15
 </p>
 
   
-<h6><a href="https://www.collimator.ai/tutorials/dc-motor-speed-controller-design">read more</a></h6></li>
+<h6><a href="https://www.collimator.ai/tutorials/dc-motor-speed-controller-design" target="_blank">read more</a></h6></li>
 
