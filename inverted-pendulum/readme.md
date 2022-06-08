@@ -12,7 +12,7 @@ Design a full-state feedback controller for an inverted pendulum system.
 In this tutorial, we will show how to use Collimator notebook to design a full-state feedback controller for an inverted pendulum system. 
 <ul>  
 <li><h3><a href="https://www.collimator.ai/tutorials/inverted-pendulum-system" target="_blank" >Project Walkthrough</a></h3></li>
-<li><h3><a href="https://github.com/collimator-ai/examples/blob/main/interted-pendulum/inverted-pendulum-notebook.py">Python Notebook</a></h3></li>
+<li><h3><a href="https://github.com/collimator-ai/examples/blob/main/inverted-pendulum/inverted-pendulum-notebook.py">Python Notebook</a></h3></li>
 </ul>
     
 ## Results
