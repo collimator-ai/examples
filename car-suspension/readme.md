@@ -3,14 +3,16 @@
 <table>
 <td><img src="https://user-images.githubusercontent.com/44644848/171918909-ca34ceca-8d40-4293-ab00-270818c6a868.jpg"  width=400/></td>
 <td><p><h1>Car Suspension Design</h1></p>
-<p>Design and optimize a car's suspension system using Collimator</p>
+
+Design and optimize a car's suspension system using [Collimator](https://www.collimator.ai/)
+
 </table>
 
 ## Objective
 Modeling and simulating the relationship between a car's mass and it's suspension in order to gain a stable experience in spite of road interferance.
 
 ## Project Description
-We begin by modeling the simple spring to see how it behaves. Then we increased the complexity of our system step by step to simulate the relationship between the control force and displacement of the car and suspension system masses. We then add a PID controller in order to stabalize the system.
+We begin by modeling the simple spring to see how it behaves. Then we increased the complexity of our system step by step to [simulate](https://www.collimator.ai/products/simulate) the relationship between the control force and displacement of the car and suspension system masses. We then add a PID controller in order to stabalize the system.
 
 <ul>
 <li><h3><a href="https://www.collimator.ai/tutorials/car-suspension-design" target="_blank" >Project Walkthrough</a></h3></li>
