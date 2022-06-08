@@ -2,25 +2,23 @@
 
 <table>
 <td><img src="https://user-images.githubusercontent.com/44644848/171924288-b91aefdb-55aa-49b7-93d6-4e0d7cfb503f.jpg"  width=400/></td>
-<td><p><h1>DC Motor Position Controller Design</h1></p>
-<p>Tuning a PID controller for a DC Motor Speed System.</p>
+<td><p><h1>Cruise Control System</h1></p>
+<p>Optimal Tuning of a PI Controller for a Cruise Control System</p>
 </table>
 
 
 
 ## Objective
-Optimally tune a PI controller for a car cruise controller using Collimator.
+Optimally tune a PI controller for a car cruise controller using [Collimator](https://www.collimator.ai).
 
 
 ## Project Description
-Using Collimator's python notebook we will tune a cruise controller ensuring that it has zero steady error with no overshoot and a fast-settling time.
+Using [Collimator's python notebook](https://www.collimator.ai/products/model/python-notebook), we will tune a cruise controller ensuring that it has zero steady error with no overshoot and a fast-settling time.
 
 <ul>  
 <li><h3><a href="https://www.collimator.ai/tutorials/optimal-cruise-control" target="_blank" >Project Walkthrough</a></h3></li>
 <li><h3><a href="https://github.com/collimator-ai/examples/blob/main/cruise-control/cruise-control-notebook.py">Python Notebook</a></h3></li>
 </ul>
-
-
     
 ## Results
 
