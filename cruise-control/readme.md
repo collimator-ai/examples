@@ -2,7 +2,7 @@
 
 <table>
 <td><img src="https://user-images.githubusercontent.com/44644848/171924288-b91aefdb-55aa-49b7-93d6-4e0d7cfb503f.jpg"  width=400/></td>
-<td><p><h1>Cruise Control System</h1></p>
+<td><p><h1>Optimal Cruise Control</h1></p>
 <p>Optimal Tuning of a PI Controller for a Cruise Control System</p>
 </table>
 
