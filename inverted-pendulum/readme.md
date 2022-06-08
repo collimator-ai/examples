@@ -1,7 +1,7 @@
 <table>
 <td><img src="https://user-images.githubusercontent.com/44644848/172479832-4c941581-a926-4169-b7ff-207f3a0eb29f.jpg"  width=400/></td>
-<td><p><h1>DC Motor Position Controller Design</h1></p>
-<p>Tuning a PID controller for a DC Motor Speed System.</p>
+<td><p><h1>Inverted Pendulum</h1></p>
+<p>Linear Quadratic Regulator for an Inverted Pendulum System.</p>
 </table>
 
 ## Objective
@@ -9,7 +9,7 @@ Design a full-state feedback controller for an inverted pendulum system.
 
 
 ## Project Description
-In this tutorial, we will show how to use Collimator notebook to design a full-state feedback controller for an inverted pendulum system. 
+In this tutorial, we will show how to use [Collimator notebook](https://www.collimator.ai/products/model/python-notebook) to design a full-state feedback controller for an inverted pendulum system. 
 <ul>  
 <li><h3><a href="https://www.collimator.ai/tutorials/inverted-pendulum-system" target="_blank" >Project Walkthrough</a></h3></li>
 <li><h3><a href="https://github.com/collimator-ai/examples/blob/main/inverted-pendulum/inverted-pendulum-notebook.py">Python Notebook</a></h3></li>
