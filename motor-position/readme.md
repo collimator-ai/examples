@@ -6,10 +6,9 @@
 </table>
 
 ## Objective
-In this example using the Ziegler-Nichols method for empirically tuning the PID controller, we will show how to design and simulate a PID controller for controlling the position of a DC motor shaftin Collimator
+In this example using the Ziegler-Nichols method for empirically tuning the PID controller, we will show how to design and simulate a PID controller for controlling the position of a DC motor shaft in [Collimator](https://www.collimator.ai/)
 
 ## Project Description
-Click the link below for a detialed look at the creation and tuning of the models, or the link below that for the Python Notebook file to view the python code that can be run on Collimator.
 <ul>
 <li><h3><a href="https://www.collimator.ai/tutorials/dc-motor-position-controller-design" target="_blank" >Project Walkthrough</a></h3></li>
 <li><h3><a href="https://github.com/collimator-ai/examples/blob/main/motor-position/motor-position-notebook.py">Python Notebook</a></h3></li>
@@ -41,7 +40,7 @@ my_model.parameters
 <img src="https://user-images.githubusercontent.com/44644848/172380747-f1a8a587-2043-44e4-8365-5f1c596835a0.png"  width="50%"/>
 </p>
 
-Finally, we investigate the tuned PID controller parameters in the model editor to further study the disturbance rejection of the controller. The characteristics of controller disturbance rejection are illustrated in Figure 8.
+Finally, we investigate the tuned PID controller parameters in the [model editor](https://www.collimator.ai/products/model/model-editor) to further study the disturbance rejection of the controller. The characteristics of controller disturbance rejection are illustrated in Figure 8.
 
 ###### Figure 8 Step response for disturbance rejection of PID 2 controller
 
