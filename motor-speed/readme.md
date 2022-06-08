@@ -6,10 +6,10 @@
 </table>
 
 ## Objective
-This example will show how to model a DC motor's speed using different approaches in Collimator. 
+This example will show how to model a DC motor's speed using different approaches in [Collimator](https://www.collimator.ai/). 
 
 ## Project Description
-The three approaches we will use in order to model a DC motor's speed are simulation diagrams from a differential equation, a transfer function, and a state variable model. Then, we will design and simulate a PID controller for the DC motor speed.
+The three approaches we will use in order to model a DC motor's speed involve [simulating](https://www.collimator.ai/products/simulate) diagrams from a differential equation, a transfer function, and a state variable model. Then, we will design and simulate a PID controller for the DC motor speed.
 
 Click the link below for a detialed walkthrough of the creation and tuning of the models using Collimator.
 <ul>
