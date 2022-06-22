@@ -9,7 +9,7 @@ Design and optimize a car's suspension system using [Collimator](https://www.col
 </table>
 
 ## Objective
-Modeling and simulating the relationship between a car's mass and it's suspension in order to gain a stable experience in spite of road interferance.
+Modeling and simulating the relationship between a car's mass and its suspension in order to gain a stable experience in spite of road interferance.
 
 ## Project Description
 We begin by modeling the simple spring to see how it behaves. Then we increased the complexity of our system step by step to [simulate](https://www.collimator.ai/products/simulate) the relationship between the control force and displacement of the car and suspension system masses. We then add a PID controller in order to stabalize the system.
