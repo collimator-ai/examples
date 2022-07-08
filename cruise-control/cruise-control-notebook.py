@@ -1,3 +1,17 @@
+
+# Optimal Cruise Control
+""" 
+# Objective
+# Optimally tune a PI controller for a car cruise controller using Collimator
+"""
+"""
+# Project Description
+# Using Collimator's python notebook we will tune a cruise controller ensuring that it has zero steady error with no overshoot and a fast-settling time.
+"""
+"""
+# Results
+# The optimal PI gains are $K_p = 7.37$ and $K_i = 0.29$. 
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import control as ctrl
