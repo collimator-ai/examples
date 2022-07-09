@@ -9,6 +9,15 @@
 
 <table>
 <tbody>
+<td><img src=""  width=400 /></td>
+<td><p><h2><a href="https://github.com/collimator-ai/examples/tree/main/inverted-pendulum"></a></h2></p>
+  
+ [Collimator](https://www.collimator.ai)
+  
+</td>
+</tbody>
+
+<tbody>
 <td><img src="https://user-images.githubusercontent.com/44644848/172447006-72ce2635-c465-440f-bbc1-aaba484331d3.jpg"  width=400 /></td>
 <td><p><h2><a href="https://github.com/collimator-ai/examples/tree/main/inverted-pendulum">Inverted Pendulum</a></h2></p>
   
