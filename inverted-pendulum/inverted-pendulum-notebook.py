@@ -12,10 +12,6 @@
 # Model Requirements
 # N/A
 """
-"""
-# Results
-# The optimal PI gains are $K_p = 7.37$ and $K_i = 0.29$. 
-"""
 
 # importing libraries native to collimator.
 import numpy as np
