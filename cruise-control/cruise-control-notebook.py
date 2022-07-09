@@ -9,6 +9,10 @@
 # Using Collimator's python notebook we will tune a cruise controller ensuring that it has zero steady error with no overshoot and a fast-settling time.
 """
 """
+# Model Requirements
+# Import the Cruise Control Model
+"""
+"""
 # Results
 # The optimal PI gains are $K_p = 7.37$ and $K_i = 0.29$. 
 """
