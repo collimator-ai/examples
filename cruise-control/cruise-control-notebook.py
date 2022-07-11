@@ -38,6 +38,17 @@ for kp in np.array([1, 5, 10, 50]):
     plt.plot(T,yout,label="kp = "+str(kp))
     plt.legend()
 
+# a look at the generated control actions first.
+plt.rcParams["figure.figsize"] = (12,8)
+plt.grid(which='both')
+plt.xlabel("Time")
+plt.ylabel("Control Action")
+for kp in np.array([1, 5, 10, 50]):
+    cruise_closed_u = ctrl.feedback(kp,cruise_tf)
+    T, u = ctrl.step_response(10*cruise_closed_u,T=np.arange(0, 8, 0.01))
+    plt.plot(T,u,label="kp = "+str(kp))
+    plt.legend()
+
 # investigating the error response 
 plt.xlabel("Time")
 plt.ylabel("Error")
