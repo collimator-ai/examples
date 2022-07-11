@@ -18,7 +18,7 @@ import control as ctrl
 import collimator as C
 
 
-# In[2]:
+# The state-space matrices are defined as follows:
 
 
 A = np.matrix([[-0.298, 54.3, 0],
@@ -31,14 +31,14 @@ pitch_sys = ctrl.ss(A,B,C,D)
 print(pitch_sys)
 
 
-# In[3]:
+# A look at the poles and zeros of the aircraft pitch system:
 
 
 print(ctrl.zero(pitch_sys))
 print(ctrl.pole(pitch_sys))
 
 
-# In[4]:
+# a look at the open-loop and closed-loop step responses for the pitch control system
 
 
 plt.figure(figsize=(12,8))
@@ -51,13 +51,13 @@ plt.plot(T, yout,label='Closed Loop')
 plt.legend()
 
 
-# In[5]:
+# the closed-loop step response though stable is unsatisfying:
 
 
 ctrl.step_info(0.2*pitch_sys_closed)
 
 
-# In[6]:
+# define a function that computes the step response and time-domain characteristics for the output step response
 
 
 def interactive_tuning(kp = 1, ki=0, kd=0):
@@ -73,11 +73,7 @@ def interactive_tuning(kp = 1, ki=0, kd=0):
     plt.xlabel('Time')
 
 
-# In[7]:
-
+# We now define the interactive variables for the tuning function.
 
 from ipywidgets import interact, fixed
 interact(interactive_tuning,kp = (0,10,0.01),ki = (0,10,0.01),kd = (0,10,0.01))
-
-
-# In[ ]:
