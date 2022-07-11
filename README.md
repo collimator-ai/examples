@@ -6,7 +6,6 @@
 
 ## All projects
 *Updated: June 6, 2022*
-![image]()
 
 
 <table>
@@ -21,7 +20,7 @@ PID Controller Design for Aircraft Pitch Loop [Collimator](https://www.collimato
 
 <tbody>
 <td><img src="https://user-images.githubusercontent.com/44644848/172447006-72ce2635-c465-440f-bbc1-aaba484331d3.jpg"  width=400 /></td>
-<td><p><h2><a href="https://github.com/collimator-ai/examples/tree/main/inverted-pendulum">Inverted Pendulum</a></h2></p>
+<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/inverted-pendulum/inverted-pendulum-notebook.py">Inverted Pendulum</a></h2></p>
   
 Linear Quadratic Regulator for an Inverted Pendulum System using [Collimator](https://www.collimator.ai)
   
@@ -30,7 +29,7 @@ Linear Quadratic Regulator for an Inverted Pendulum System using [Collimator](ht
 
 <tbody>
 <td><img src="https://user-images.githubusercontent.com/44644848/171924288-b91aefdb-55aa-49b7-93d6-4e0d7cfb503f.jpg"  width=400 /></td>
-<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/cruise-control/readme.md">Optimal Cruise Control</a></h2></p>
+<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/cruise-control/cruise-control-notebook.py">Optimal Cruise Control</a></h2></p>
 
 Optimally tune a PI controller for a car cruise controller using [Collimator](https://www.collimator.ai)
   
@@ -55,7 +54,7 @@ Model a DC motor's speed using different approaches in [Collimator](https://www.
 
 <tbody>
 <td><img src="https://user-images.githubusercontent.com/44644848/171918981-6f80450d-fcca-4585-8f29-709e77c5530e.jpg"  width=400 /></td>
-<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/motor-position/readme.md">Motor Position</a></h2></p>
+<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/motor-position/motor-position-notebook.py">Motor Position</a></h2></p>
 
 Design a PID controller for controlling the position of a DC motor shaft in [Collimator](https://www.collimator.ai)
 
