@@ -66,6 +66,7 @@ for kp in np.array([100, 160, 170, 200]):
 # Consequently, we apply the extracted gain to find the PID controller gains as defined in the Ziegler-Nichols tuning rules:           
 Ku = 170
 Tu = 0.65
+
 kp = [0.5*Ku, 0.45*Ku,     0.8*Ku,      0.6*Ku,        0.333*Ku,      0.2*Ku]
 ki = [0,      0.54*Ku/Tu,  0,           1.2*Ku/Tu,     0.667*Ku/Tu,   0.4*Ku/Tu]
 kd = [0,      0,           0.1*Ku*Tu,   0.075*Ku*Tu,   0.111*Ku*Tu,   0.0667*Ku*Tu]
@@ -83,6 +84,7 @@ for i in range(0, len(labels)):
     plt.legend()
 
 # the “PID 2” controller yields the best step response. Therefore, we will have another look at the “PID 2” controller:
+i = 4; # "PID 2"
 plt.rcParams["figure.figsize"] = (12,8)
 plt.grid()
 my_model.set_parameters({"kp":kp[i]})
