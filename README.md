@@ -6,13 +6,15 @@
 
 ## All projects
 *Updated: June 6, 2022*
+![image]()
+
 
 <table>
 <tbody>
-<td><img src=""  width=400 /></td>
-<td><p><h2><a href="https://github.com/collimator-ai/examples/tree/main/inverted-pendulum"></a></h2></p>
+<td><img src="https://user-images.githubusercontent.com/44644848/178276154-49c1a14c-4483-4eba-93dd-de2d22d3f33d.png"  width=400 /></td>
+<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/aircraft-pitch/aircraft-pitch-notebook.py"></a></h2></p>
   
- [Collimator](https://www.collimator.ai)
+PID Controller Design for Aircraft Pitch Loop [Collimator](https://www.collimator.ai)
   
 </td>
 </tbody>
