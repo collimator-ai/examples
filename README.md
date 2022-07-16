@@ -17,7 +17,6 @@ Designing a Continuous Stirred-Rank Reactor [Collimator](https://www.collimator.
 </td>
 </tbody>
 
-<table>
 <tbody>
 <td><img src="https://user-images.githubusercontent.com/44644848/178276154-49c1a14c-4483-4eba-93dd-de2d22d3f33d.png"  width=400 /></td>
 <td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/aircraft-pitch/aircraft-pitch-notebook.py">Aircraft Pitch Controller</a></h2></p>
