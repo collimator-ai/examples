@@ -10,9 +10,9 @@
 <table>
 <tbody>
 <td><img src="https://user-images.githubusercontent.com/44644848/179329364-13db299c-1bc1-473d-a273-ef5e6844824b.png"  width=400 /></td>
-<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/continuous-stirred-tank-reactor/CSTR-notebook.py">Aircraft Pitch Controller</a></h2></p>
+<td><p><h2><a href="https://github.com/collimator-ai/examples/blob/main/continuous-stirred-tank-reactor/CSTR-notebook.py">Continuous Stirred-Rank Reactor</a></h2></p>
   
-PID Controller Design for Aircraft Pitch Loop [Collimator](https://www.collimator.ai)
+Designing a Continuous Stirred-Rank Reactor [Collimator](https://www.collimator.ai)
   
 </td>
 </tbody>
