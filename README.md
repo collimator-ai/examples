@@ -5,7 +5,7 @@
 **Your guide as you begin explore what [Collimator](https://www.collimator.ai) can do!**
 
 ## All projects
-*Updated: June 6, 2022*
+*Updated: July 15, 2022*
 
 
 <table>
