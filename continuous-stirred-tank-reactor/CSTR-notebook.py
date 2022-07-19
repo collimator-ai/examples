@@ -1,7 +1,7 @@
 # continuous stirred-tank reactor (CSTR)
 """ 
 # Objective
-# Designing a Continuous Stirred-Rank Reactor
+# Designing a Continuous Stirred-Tank Reactor
 """
 """
 # Project Description
