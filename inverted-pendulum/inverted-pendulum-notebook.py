@@ -1,5 +1,5 @@
 
-# Optimal Cruise Control
+# Inverted Pendulum System
 """ 
 # Objective
 # Design a full-state feedback controller for an inverted pendulum system.
